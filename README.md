@@ -1,24 +1,24 @@
-# GitHubCard showcase
+# GitHubCard showcase: profile README and repository cards
 
-GitHubCard is a drag-and-drop GitHub profile README and repo card generator — one live card instead of a stack of README embeds.
+GitHubCard is a drag-and-drop generator for GitHub profile README cards and repository cards.
 
-This public repository contains the current GitHubCard profile and repository card showcase. The `showcase/` directory is copied from the main project's `public/showcase`; add new cards there as the collection grows.
+This repository contains 32 GitHub profile README cards and 32 repository cards from the public GitHubCard showcase. Each card uses one PNG asset.
 
-## Quick start
+## Add a GitHubCard to your README
 
 1. Open the [profile card generator](https://githubcard.com/~profile-card) or [repository card generator](https://githubcard.com/~repo-card).
 2. Enter a GitHub username or owner/repository, then arrange the widgets you need.
-3. Paste one Markdown line into your README:
+3. Paste this Markdown into your README:
 
 ```md
 [![GitHubCard](https://githubcard.com/<username>.svg?d=<design-id>)](https://githubcard.com/<username>/card?utm_source=github&utm_medium=readme)
 ```
 
-The basic embed uses a public GitHubCard image route. A token or GitHub Actions workflow is not part of this embed pattern. For a fixed image, publish the design and use its `/g/<publication-id>.svg` or `.png` URL.
+The live example uses a GitHubCard image URL. You do not need to add a token or GitHub Actions workflow to the README. For a fixed image, publish the design and use its `/g/<publication-id>.png` URL.
 
 ## Showcase
 
-Every entry in `showcase/manifest.json` is displayed below. The repository keeps one PNG file per card so each preview has a single asset to link to.
+The gallery below displays every entry in `showcase/manifest.json`: 32 profile cards and 32 repository cards.
 
 ### Profile cards (32)
 
